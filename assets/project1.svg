@@ -1,0 +1,12 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#233554" rx="10" ry="10"/>
+  
+  <!-- Project elements -->
+  <rect x="50" y="40" width="300" height="30" fill="#64ffda" rx="5" ry="5" opacity="0.7"/>
+  <rect x="50" y="90" width="200" height="20" fill="#64ffda" rx="5" ry="5" opacity="0.5"/>
+  <rect x="50" y="130" width="250" height="20" fill="#64ffda" rx="5" ry="5" opacity="0.3"/>
+  
+  <!-- Text -->
+  <text x="200" y="180" font-family="Arial" font-size="16" fill="#ccd6f6" text-anchor="middle">Project 1 Image</text>
+</svg>

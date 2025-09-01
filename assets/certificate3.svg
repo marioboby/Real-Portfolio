@@ -1,0 +1,13 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#233554" rx="10" ry="10"/>
+  
+  <!-- Certificate elements -->
+  <rect x="50" y="30" width="300" height="140" fill="#112240" rx="5" ry="5" stroke="#64ffda" stroke-width="2"/>
+  <rect x="80" y="60" width="240" height="20" fill="#64ffda" rx="5" ry="5" opacity="0.4"/>
+  <rect x="100" y="100" width="200" height="10" fill="#64ffda" rx="5" ry="5" opacity="0.3"/>
+  <rect x="120" y="120" width="160" height="10" fill="#64ffda" rx="5" ry="5" opacity="0.2"/>
+  
+  <!-- Text -->
+  <text x="200" y="180" font-family="Arial" font-size="16" fill="#ccd6f6" text-anchor="middle">Certificate 3</text>
+</svg>
