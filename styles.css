@@ -106,6 +106,25 @@ nav {
     color: #64ffda;
 }
 
+.cv-download {
+    display: flex;
+    align-items: center;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #64ffda;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cv-download i {
+    margin-right: 10px;
+}
+
+.cv-download:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    transform: translateY(-3px);
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -523,6 +542,11 @@ footer {
 
     .nav-links li {
         margin: 20px 0;
+    }
+    
+    .cv-download {
+        margin: 0;
+        padding: 8px 15px;
     }
 
     .hamburger {
