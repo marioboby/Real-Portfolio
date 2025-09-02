@@ -116,7 +116,7 @@ skillFilterBtns.forEach(btn => {
             if (filter === 'all') {
                 card.style.display = 'block';
             } else {
-                if (card.getAttribute('data-category') === filter) {
+                if (card.getAttribute('data-category').includes(filter)) {
                     card.style.display = 'block';
                 } else {
                     card.style.display = 'none';
