@@ -443,6 +443,11 @@ nav {
     margin-bottom: 5px;
 }
 
+.info-item a, .info-item p {
+    color: #64ffda;
+    text-decoration: none;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
